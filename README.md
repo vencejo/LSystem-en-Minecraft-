@@ -6,7 +6,10 @@ Interpreta cadenas en forma de reglas L y dibuja sus interacciones en el mundo t
 
 Funcionamiento
 --------------
-* Poner la ip de tu raspberry en la linea ("mc = minecraft.Minecraft.create("192.168.1.253") ") al principio de tortuga3D.py
+* Si el programa se ejecuta en una computadora conectada a la misma red de la Raspberry:
+	Poner la ip de tu raspberry en la linea ("mc = minecraft.Minecraft.create("192.168.1.253") ") al principio de tortuga3D.py
+* Si el programa se ejecuta en la propia raspberry:
+	Poner "mc = minecraft.Minecraft.create() " al principio de tortuga3D.py
 * Ejecutar demos.py
 
 

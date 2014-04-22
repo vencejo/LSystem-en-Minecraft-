@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Lsystem en minecraft con la Raspberry Pi by vencejo</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Lsystem en minecraft con la Raspberry Pi</h1>
+        <h2>Dibuja objetos basados en gramáticas L en el mundo de Minecraft de la Raspberry Pi</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/vencejo/LSystem-en-Minecraft-/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/vencejo/LSystem-en-Minecraft-/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/vencejo/LSystem-en-Minecraft-" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="lsystems-in-the-raspberry-pi-minecraft" class="anchor" href="#lsystems-in-the-raspberry-pi-minecraft"><span class="octicon octicon-link"></span></a>Lsystems in the Raspberry Pi Minecraft</h1>
+
+<p>Interpreta cadenas en forma de reglas L y dibuja sus interacciones en el mundo tridimensinal de Minecraft en la Raspberry Pi</p>
+
+<h2>
+<a name="funcionamiento" class="anchor" href="#funcionamiento"><span class="octicon octicon-link"></span></a>Funcionamiento</h2>
+
+<ul>
+<li>Si el programa se ejecuta en una computadora conectada a la misma red de la Raspberry:
+Poner la ip de tu raspberry en la linea ("mc = minecraft.Minecraft.create("192.168.1.253") ") al principio de tortuga3D.py</li>
+<li>Si el programa se ejecuta en la propia raspberry:
+Poner "mc = minecraft.Minecraft.create() " al principio de tortuga3D.py</li>
+<li>Ejecutar demos.py</li>
+</ul><h2>
+<a name="modulos" class="anchor" href="#modulos"><span class="octicon octicon-link"></span></a>Modulos</h2>
+
+<ul>
+<li>demos.py -&gt; programa de inicio que lanza todos los demos interactivamente , uno tras otro</li>
+<li>Lsystem3D.py -&gt; Interpretador de las cadenas de texto como reglas L</li>
+<li>tortuga3D.py -&gt; programa propio que adapta los movientos de la tortuga de logo a un entorno 3D</li>
+<li>minecraftstuff.py  -&gt; para dibujar figuras geometricas simples </li>
+<li>math3D.py -&gt; gestiona las operaciones matematicas geometricas en 3D</li>
+</ul><h2>
+<a name="creditos" class="anchor" href="#creditos"><span class="octicon octicon-link"></span></a>Creditos</h2>
+
+<ul>
+<li>demos.py y Lsystem3D.py , programas basado en el trabajo de Bernie Pope <a href="http://www.cs.mu.oz.au/%7Ebjpop/">www.cs.mu.oz.au/~bjpop/</a> cuyo codigo puede verse en: <a href="http://www.berniepope.id.au/html/pycol/lsystem.py.html">http://www.berniepope.id.au/html/pycol/lsystem.py.html</a>
+</li>
+<li>minecraftstuff.py ,programa de Martin O'Hanlon <a href="http://www.stuffaboutcode.com">www.stuffaboutcode.com</a> para dibujar en Minecraft Pi</li>
+<li>math3D.py , programa basado en el trabajo de Daniel Bates <a href="http://www.cl.cam.ac.uk/%7Edb434/">http://www.cl.cam.ac.uk/~db434/</a> cuyo codigo fuente se puede ver en: <a href="http://www.cl.cam.ac.uk/%7Edb434/files/setblockdemo.py">http://www.cl.cam.ac.uk/~db434/files/setblockdemo.py</a>
+</li>
+</ul><h2>
+<a name="licencia" class="anchor" href="#licencia"><span class="octicon octicon-link"></span></a>Licencia</h2>
+
+<p>GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
